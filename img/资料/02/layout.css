@@ -1,0 +1,363 @@
+HTML,BODY {
+	WIDTH: 100%; HEIGHT: 100%
+}
+BODY {
+	MARGIN: 0px; PADDING: 0px; BACKGROUND: #ffffff; FONT-FAMILY: arial,verdana,sans-serif
+}
+TABLE {
+	FONT-SIZE: 12px; TEXT-ALIGN: left
+}
+DIV {
+	FONT-SIZE: 12px; TEXT-ALIGN: left; MARGIN: auto
+}
+DIV.dfn {
+	DISPLAY: none
+}
+FORM,UL,INPUT,SELECT,TEXTAREA {
+	MARGIN: 0px; PADDING: 0px
+}
+INPUT,SELECT,TEXTAREA {
+	FONT-SIZE: 12px; FONT-FAMILY: arial; VERTICAL-ALIGN: middle
+}
+INPUT.text {
+	HEIGHT: 16px; PADDING: 2px; BORDER: #999999 1px solid
+}
+INPUT.btn {
+	HEIGHT: 22px; LINE-HEIGHT: 22px; BORDER: #DCDCDC 1px solid; PADDING-LEFT: 14px; BACKGROUND: url(button.jpg)
+}
+INPUT.button {
+	HEIGHT: 22px; BACKGROUND: #DDDDDD; BORDER: 1px solid; BORDER-COLOR: #DDDDDD #AAAAAA #AAAAAA #DDDDDD; PADDING: 3px 5px 3px 5px; OVERFLOW: visible
+}
+INPUT.file {
+	HEIGHT: 22px; LINE-HEIGHT: 22px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BORDER: #999999 1px solid
+}
+INPUT.checkbox {
+	WIDTH: 13px; HEIGHT: 13px; BORDER: 0px; MARGIN: 2px
+}
+INPUT.radio {
+	WIDTH: 13px; HEIGHT: 13px; BORDER: 0px; MARGIN: 2px
+}
+SELECT.select {
+	HEIGHT: 22px; LINE-HEIGHT: 22px
+}
+TEXTAREA.textarea {
+	PADDING: 2px; BORDER: #999999 1px solid
+}
+IMG {
+	BORDER: 0px
+}
+IMG.absmiddle {
+	VERTICAL-ALIGN: middle
+}
+IMG.iBorder {
+	BORDER: #dcdcdc 1px solid
+}
+A {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+A.highlights {
+	COLOR: #0281ec; TEXT-DECORATION: underline
+}
+A.highlights:hover {
+	COLOR: #ff6666; TEXT-DECORATION: underline
+}
+A.bigLink {
+	FONT-SIZE: 14px; COLOR: #333333; TEXT-DECORATION: none
+}
+A.bigLink:hover {
+	TEXT-DECORATION: underline
+}
+#top {
+	WIDTH: 1000px
+}
+#topContent {
+	POSITION: relative; WIDTH: 990px; HEIGHT: 138px; MARGIN-TOP: 12px
+}
+#topContent .hr {
+	WIDTH: 990px; HEIGHT: 11px; BACKGROUND: #000000
+}
+#topContentLogoMini {
+	POSITION: absolute; TOP: 22px; RIGHT: 10px
+}
+#topContentLang {
+	POSITION: absolute; TOP: 22px; RIGHT: 10px
+}
+#topContentLangB {
+	POSITION: absolute; TOP: 90px; RIGHT: 10px
+}
+#middle {
+	WIDTH: 1000px
+}
+#middleContent {
+	WIDTH: 990px
+}
+#bottom {
+	WIDTH: 1000px
+}
+#bottomContent {
+	POSITION: relative; WIDTH: 990px; PADDING-TOP: 23px; PADDING-BOTTOM: 23px
+}
+#bottomContent .hr {
+	WIDTH: 990px; HEIGHT: 11px; BACKGROUND: #000000
+}
+#bottomContent P {
+	WIDTH: 990px; MARGIN: 0px; COLOR: #666666; LINE-HEIGHT: 25px; HEIGHT: 25px; FONT-SIZE: 11px; FONT-FAMILY: PMingLiu; TEXT-ALIGN: center
+}
+#bottomContentBN {
+	FONT-SIZE: 11px; FONT-FAMILY: PMingLiu; TEXT-ALIGN: center
+}
+#bottomContentGS {
+	PADDING: 5px 0px 0px 0px; TEXT-ALIGN: center
+}
+#bottomCMSInfo {
+	WIDTH: 990px; PADDING: 5px; TEXT-ALIGN: right; DISPLAY: none
+}
+.ash {
+	COLOR: #666666
+}
+.clear {
+	DISPLAY: block; CLEAR: both; WIDTH: 100%; HEIGHT: 1px; OVERFLOW: hidden
+}
+.content DIV {
+	LINE-HEIGHT: 200%
+}
+.comment DIV {
+	LINE-HEIGHT: 200%
+}
+.cutepage {
+	TEXT-ALIGN: right; PADDING-TOP: 10px; PADDING-BOTTOM: 10px
+}
+.cutepage A {
+	MARGIN-LEFT: 3px; PADDING-TOP: 2px; PADDING-BOTTOM: 2px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; VERTICAL-ALIGN: middle; BORDER: #AFAFAF 1px solid; TEXT-DECORATION: none
+}
+.cutepage A:hover {
+	TEXT-DECORATION: none
+}
+.cutepage A.selected {
+	COLOR: #F00000; TEXT-DECORATION: none
+}
+.cutepage INPUT {
+	WIDTH: 20px; PADDING-TOP: 2px; PADDING-BOTTOM: 2px; MARGIN-LEFT: 3px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BORDER: #AFAFAF 1px solid
+}
+.eventsList {
+	WIDTH: 300px; DISPLAY:inline; FLOAT: left; MARGIN-LEFT: 42px; MARGIN-RIGHT: 42px
+}
+.eventsImage {
+	POSITION: absolute; TOP: 0px; RIGHT: 0px
+}
+.hand {
+	CURSOR: pointer
+}
+.hidden {
+	DISPLAY: none
+}
+.highlight {
+	BACKGROUND: #ffff66
+}
+.inline {
+	DISPLAY: inline
+}
+.imgbox1 {
+	WIDTH: 122px; PADDING: 3px; BORDER: #B9B9B9 1px solid
+}
+.jloader {
+	MARGIN: 0px; BACKGROUND: #FFFFFF; PADDING-LEFT: 8px; BORDER: #666666 1px solid
+}
+.jloader DIV {
+	MARGIN: 0px; BACKGROUND: url(jloading.gif) left center no-repeat; HEIGHT: 48px; LINE-HEIGHT: 48px; PADDING-LEFT: 40px; PADDING-RIGHT: 8px; COLOR: #666666
+}
+.list {
+	PADDING-TOP: 10px
+}
+.line1 {
+	HEIGHT: 1px; BACKGROUND: url(line.1.jpg)
+}
+.link1 {
+	FONT-SIZE: 14px; COLOR: #333333; TEXT-ALIGN: right
+}
+.link1 A {
+	FONT-SIZE: 14px; COLOR: #333333; TEXT-DECORATION: none
+}
+.link1 A:hover {
+	TEXT-DECORATION: underline
+}
+.liveSide {
+  PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+.liveTag {
+  PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 30px
+}
+.liveTag A {
+	MARGIN-RIGHT: 5px; COLOR: #666666; TEXT-DECORATION: underline
+}
+.liveTag A:hover {
+	COLOR: #333333; TEXT-DECORATION: underline
+}
+.liveList {
+	WIDTH: 220px; DISPLAY:inline; FLOAT: left; MARGIN-LEFT: 18px; MARGIN-RIGHT: 18px
+}
+.liveLists {
+	WIDTH: 150px; DISPLAY:inline; FLOAT: left; MARGIN-LEFT: 21px; MARGIN-RIGHT: 21px
+}
+.liveListx {
+	WIDTH: 246px; DISPLAY:inline; FLOAT: left; MARGIN-LEFT: 5px; MARGIN-RIGHT: 5px
+}
+.middleSide {
+	WIDTH: 180px; BORDER-RIGHT: #000000 1px solid
+}
+.middleSideR {
+	WIDTH: 181px
+}
+.middleSideMenuBox {
+	WIDTH: 100%
+}
+.middleSideMenuBox H3 {
+  MARGIN: 0px; PADDING: 0px 0px 5px 0px; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.middleSideMenuBox UL {
+	MARGIN: 0px; PADDING: 0px; LIST-STYLE: none
+}
+.middleSideMenuBox UL LI {
+	LINE-HEIGHT: 25px; FONT-SIZE: 14px
+}
+.middleSideSearchBox {
+	WIDTH: 100%; MARGIN-TOP: 20px
+}
+.middleSideSearchBox P {
+	MARGIN: 0px; PADDING: 0px; HEIGHT: 25px; FONT-SIZE: 14px; COLOR: #333333
+}
+.middleSideSearchBoxContent {
+	MARGIN: 0px; WIDTH: 154px; HEIGHT: 22px; BACKGROUND: url(bg.search.jpg)
+}
+.middleSideSearchBoxContent INPUT.text {
+	VERTICAL-ALIGN: top; BORDER: 0px; BACKGROUND: transparent; WIDTH: 124px
+}
+.middleMain {
+	BORDER-RIGHT: #000000 1px solid
+}
+.middleMainL {
+	BORDER-LEFT: #000000 1px solid; BORDER-RIGHT: #000000 1px solid
+}
+.magazinesList {
+	WIDTH: 220px; DISPLAY:inline; FLOAT: left; MARGIN-LEFT: 18px; MARGIN-RIGHT: 18px
+}
+.magazinesSubfield {
+	HEIGHT: 25px; FONT-WEIGHT: bold
+}
+.magazinesArticles {
+	MARGIN-BOTTOM: 30px; LINE-HEIGHT: 150%; COLOR: #333333
+}
+.magazinesArticles A.magazinesArticles-a0 {
+	COLOR: #ff0033; TEXT-DECORATION: none
+}
+.magazinesArticles A.magazinesArticles-a0:hover {
+	COLOR: #ff0033; TEXT-DECORATION: underline
+}
+.magazinesArticles A.magazinesArticles-a1 {
+	COLOR: #0082ee; TEXT-DECORATION: none
+}
+.magazinesArticles A.magazinesArticles-a1:hover {
+	COLOR: #0082ee; TEXT-DECORATION: underline
+}
+.quote {
+	WIDTH: 98%; LINE-HEIGHT: 150%; BORDER: #dcdcdc 1px dotted; PADDING: 5px
+}
+.relative {
+	POSITION: relative
+}
+.red {
+	COLOR: #CC0066
+}
+.snacksList {
+	WIDTH: 220px; DISPLAY:inline; FLOAT: left; MARGIN-LEFT: 18px; MARGIN-RIGHT: 18px
+}
+.snacksListImages {
+	WIDTH: 170px; DISPLAY:inline; FLOAT: left; MARGIN-LEFT: 11px; MARGIN-RIGHT: 11px
+}
+.sesquitonSide {
+  PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+.sesquitonTag {
+  PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 30px
+}
+.sesquitonTag A {
+	MARGIN-RIGHT: 5px; COLOR: #666666; TEXT-DECORATION: underline
+}
+.sesquitonTag A:hover {
+	COLOR: #333333; TEXT-DECORATION: underline
+}
+.tit1 {
+	HEIGHT: 30px
+}
+.tit1 SPAN {
+	PADDING-LEFT: 10px; BACKGROUND: url(icon.2.jpg) center left no-repeat
+}
+.tag {
+  COLOR: #999999
+}
+.tag A {
+	MARGIN-RIGHT: 5px; COLOR: #999999; TEXT-DECORATION: none
+}
+.tag A:hover {
+	COLOR: #333333; TEXT-DECORATION: underline
+}
+.topic {
+	LINE-HEIGHT: 150%; FONT-SIZE: 24px; FONT-WEIGHT: bold; PADDING-BOTTOM: 16px
+}
+.title {
+	FONT-SIZE: 16px; FONT-WEIGHT: bold; PADDING-BOTTOM: 5px
+}
+.tablec {
+	WIDTH: 100%; BACKGROUND: #FFFFFF; BORDER: 0px
+}
+.tablec TD {
+	BACKGROUND: #D1D2D4; FONT-SIZE: 14px; FONT-WEIGHT: bold; TEXT-ALIGN: center
+}
+.tablec TD.year {
+	FONT-SIZE: 16px
+}
+.tablec TD.normal {
+	CURSOR: pointer
+}
+.tablec TD.selected {
+	BACKGROUND: #007EEA; COLOR: #FFFFFF
+}
+.tablec TD.disabled {
+	BACKGROUND: #DEDEDE; COLOR: #999999
+}
+.tablec TD DIV.hand {
+  TEXT-ALIGN: center
+}
+.tablec TD DIV.normal {
+  TEXT-ALIGN: center
+}
+.tablem {
+	WIDTH: 100%; BORDER: 0px
+}
+.tablen {
+	WIDTH: 770px; BORDER: 0px; MARGIN: auto
+}
+.tableni {
+	WIDTH: 640px; BORDER: 0px; MARGIN: auto
+}
+.tablex {
+	WIDTH: 100%; BACKGROUND: #CCCCCC; BORDER: 0px
+}
+.tablex TD {
+	BACKGROUND: #FFFFFF
+}
+.text1 {
+  FONT-SIZE: 26px; FONT-WEIGHT: bold; COLOR: #636466
+}
+.text2 {
+  FONT-SIZE: 22px; FONT-WEIGHT: bold; COLOR: #636466
+}
+.ubb_code {
+	BORDER: #dcdcdc 1px dotted; PADDING: 5px; LINE-HEIGHT: 150%; FONT-STYLE: italic
+}
+.ubb_quote {
+	BORDER: #dcdcdc 1px dotted; PADDING: 5px; LINE-HEIGHT: 150%
+}
